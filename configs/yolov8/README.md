@@ -43,6 +43,7 @@ YOLOv8-P5 model structure
 6. `TTA` means that Test Time Augmentation. It's perform 3 multi-scaling transformations on the image, followed by 2 flipping transformations (flipping and not flipping). You only need to specify `--tta` when testing to enable.  see [TTA](https://github.com/open-mmlab/mmyolo/blob/dev/docs/en/common_usage/tta.md) for details.
 
 ## Citation
+
 ```bibtex
 @software{yolov8_ultralytics,
   author = {Glenn Jocher and Ayush Chaurasia and Jing Qiu},
